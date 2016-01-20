@@ -1,13 +1,11 @@
 {
   "name": "angular.dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "part1",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "angular-animate": "^1.4.8",
-    "ngbootbox": "^0.1.2"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.8",

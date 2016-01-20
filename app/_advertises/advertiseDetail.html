@@ -98,7 +98,7 @@
                                     ng-model="vm.advertise.location_id"
                                     ng-options="option.id as option.name for option in vm.cities">
                                 <!--http://jsfiddle.net/DianaNassar/FShdc/-->
-                                <option value="">-- Выберите город --</option>
+                                <option value="">--> Выберите город <--</option>
                             </select>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                                     ng-model="vm.advertise.category_id"
                                     ng-options="option.id as option.name group by option.parent_name for option in vm.categories"
                                     required>
-                                <option value="">-- Выберите категорию --</option>
+                                <option value="">--> Выберите категорию <--</option>
                             </select>
                         </div>
                     </div>
